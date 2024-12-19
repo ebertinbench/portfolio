@@ -32,7 +32,10 @@ button{
   width: auto;
 }
 
-
+h1{
+  font-size: 50px;
+  text-align: center;
+}
 
 button:hover {
   transform: translateY(-1px);
@@ -43,10 +46,50 @@ button:active {
   transform: translateY(0);
 }
 
+div.contacts{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: solid 1px;
+}
+div.contacts img{
+  width: 200px;
+  height: 200px;
+  /*border-radius: 50%;*/
+}
+
+div.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  flex-direction: row;
+  /*padding: 1rem;*/
+  border-bottom: solid 1px;
 }
-
+a{
+  color: inherit;
+  text-decoration: none;
+}
+div.contact p{
+  font-size: 30px;
+}
+@media screen and (max-width: 700px){
+  nav div.bouttons{
+    display: flex;
+    flex-direction: column;
+  }
+  button{
+    width:100px
+  }
+  div.contacts{
+    flex-direction: column;
+  }
+  
+}
