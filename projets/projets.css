@@ -7,11 +7,19 @@ div.categories{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     padding: 1rem;
+    
+    /*border-bottom: solid 1px;*/
+}
+div.categories-projets{
+    justify-content: space-around;
+    
+    
     /*border-bottom: solid 1px;*/
 }
 div.categories a:hover{
-   border: solid 1px yellow;
+   border: solid 3px yellow;
 }
 div.categories a{
     border: solid 1px;
@@ -19,6 +27,7 @@ div.categories a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 p{
     font-size: 20px;
