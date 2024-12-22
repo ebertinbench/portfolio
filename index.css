@@ -81,9 +81,10 @@ div.contact p{
   font-size: 30px;
 }
 h2{
-  border-bottom: solid;
-  font-size: 30px;
-  border-top: solid;
+  border-bottom: solid 1px;
+  font-size: 40px;
+  border-top: solid 1px;
+  text-align: center;
 }
 @media screen and (max-width: 700px){
   nav div.bouttons{
