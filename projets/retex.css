@@ -12,9 +12,12 @@ div.retex{
 img{
     width: 480px;    
     height: 270px;
-    object-fit: cover;
+    object-fit:fill;
     
 }
 div.texte{
-    display: block;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
