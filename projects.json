@@ -1,0 +1,148 @@
+[
+    {
+      "id": 1,
+      "title": "Infrastructures Juniper",
+      "Contexte": "J'ai eu la chance d'obtenir une partie du matériel proposé par Juniper Networks, avec notamment le routeur Juniper SRX 300. Avec lequel j'ai pu expérimenter pour la première fois la configuration manuelle d'appareils réseau. Cela fut également une de mes premières intéractions avec la documentation technique proposée par le concepteur du matériel",
+      "Compétences utilisées / acquises": [
+      "Prise en main du CLI",
+      "Accès à distance via SSH / Telnet",
+      "Configurations d'interfaces",
+      "Zone de sécurité",
+      "Relai DHCP",
+      "Fonctionnement chassis cluster (haute disponibilité, redondance)"
+      ],
+      "Images": [
+      "images/juniper.jpg",
+      "images/junos.png",
+      "images/Chassis-Cluster.jpg"
+    ]
+    },
+    {
+      "id": 2,
+      "title": "Infrastructures Cisco",
+      "Cahier des charges / contexte": "J'ai eu la chance d'obtenir une partie du matériel proposé par Cisco Systems, avec notamment les switchs Cisco catalyst 2960g et Cisco catalyst 3750g. Avoir eu l'occasion de toucher à du matériel physique, couplé au logiciel Cisco Packet Tracer, m'a permis de comprendre plus facilement comment appliquer les concepts de base des réseaux sur des infrastructures.",
+      "Compétences utilisées / acquises": [
+      "Prise en main du CLI",
+      "Accès à distance via SSH / Telnet",
+      "Configurations d'interfaces",
+      "VLAN",
+      "Etherchannel",
+      "DHCP",
+      "OSPF"
+    ],
+      "images": [
+      "images/cisco1.jpg",
+      "images/cisco2.jpg"
+    ]
+    },
+    {
+      "id": 3,
+      "title": "Active Directory",
+      "Cahier des charges": [
+        "Créer plusieurs contrôleurs de domaine Azure Active Directory ansi qu'un endpoint utilisateur",
+        "Un utilisateur préinscrit dois pouvoir se connecter à sa session, utiliser un navigateur internet",
+        "Utiliser une base de données préinstallée sur le serveur pour développer une application"],
+      "Résultat final": [
+        "Les contrôleurs de domaines et le endpoint peuvent communiquer entre eux. Les rôles FMSO ont étés répartis",
+        "L'application était fonctionnelle mais n'a pas été déployée. Elle est simplement executée sur la machine utilisateur",
+        "Création d'une application C# utilisant une base de données",
+        "PLusieurs GPO ont étés modifiées, mais aucune n'a été redigée de toute pièce"
+      ],
+      "Compétences utilisées / acquises": ["Bases du fonctionnement de Active Directory",
+      "Création de contrôleurs de domaine",
+      "Gestion des rôles FSMO",
+      "Création d'utilisateurs",
+      "Gestion des GPO",
+      "Création d'unités d'organisation",
+      "Intéractions entre un endpoint et une base de données oracle"
+    ],
+      "images": [
+      "images/csharp1.png",
+      "images/csharp2.png",
+      "images/activedirectory.jpg"
+    ]
+    },
+    {
+      "id": 4,
+      "title": "Client mail POP3",
+      "Cahier des charges": [
+        "Créer plusieurs contrôleurs de domaine Azure Active Directory ansi qu'un endpoint utilisateur",
+        "Un utilisateur préinscrit dois pouvoir se connecter à sa session, utiliser un navigateur internet",
+        "Utiliser une base de données préinstallée sur le serveur pour développer une application"],
+      "Résultat final": [
+        "Les contrôleurs de domaines et le endpoint peuvent communiquer entre eux. Les rôles FMSO ont étés répartis",
+        "L'application était fonctionnelle mais n'a pas été déployée. Elle est simplement executée sur la machine utilisateur",
+        "Création d'une application C# utilisant une base de données",
+        "PLusieurs GPO ont étés modifiées, mais aucune n'a été redigée de toute pièce"
+      ],
+      "Compétences utilisées / acquises": ["Bases du fonctionnement de Active Directory",
+      "Création de contrôleurs de domaine",
+      "Gestion des rôles FSMO",
+      "Création d'utilisateurs",
+      "Gestion des GPO",
+      "Création d'unités d'organisation",
+      "Intéractions entre un endpoint et une base de données oracle"
+    ],
+      "images": [
+      "images/csharp1.png",
+      "images/csharp2.png",
+      "images/activedirectory.jpg"
+    ]
+    },
+    {
+      "id": 5,
+      "title": "Pentesting",
+      "Cahier des charges": [
+        "Créer plusieurs contrôleurs de domaine Azure Active Directory ansi qu'un endpoint utilisateur",
+        "Un utilisateur préinscrit dois pouvoir se connecter à sa session, utiliser un navigateur internet",
+        "Utiliser une base de données préinstallée sur le serveur pour développer une application"],
+      "Résultat final": [
+        "Les contrôleurs de domaines et le endpoint peuvent communiquer entre eux. Les rôles FMSO ont étés répartis",
+        "L'application était fonctionnelle mais n'a pas été déployée. Elle est simplement executée sur la machine utilisateur",
+        "Création d'une application C# utilisant une base de données",
+        "PLusieurs GPO ont étés modifiées, mais aucune n'a été redigée de toute pièce"
+      ],
+      "Compétences utilisées / acquises": ["Bases du fonctionnement de Active Directory",
+      "Création de contrôleurs de domaine",
+      "Gestion des rôles FSMO",
+      "Création d'utilisateurs",
+      "Gestion des GPO",
+      "Création d'unités d'organisation",
+      "Intéractions entre un endpoint et une base de données oracle"
+    ],
+      "images": [
+      "images/csharp1.png",
+      "images/csharp2.png",
+      "images/activedirectory.jpg"
+    ]
+    },
+    {
+      "id": 6,
+      "title": "Réseau virtuel avec NEmu",
+      "Cahier des charges": [
+        "Créer plusieurs contrôleurs de domaine Azure Active Directory ansi qu'un endpoint utilisateur",
+        "Un utilisateur préinscrit dois pouvoir se connecter à sa session, utiliser un navigateur internet",
+        "Utiliser une base de données préinstallée sur le serveur pour développer une application"],
+      "Résultat final": [
+        "Les contrôleurs de domaines et le endpoint peuvent communiquer entre eux. Les rôles FMSO ont étés répartis",
+        "L'application était fonctionnelle mais n'a pas été déployée. Elle est simplement executée sur la machine utilisateur",
+        "Création d'une application C# utilisant une base de données",
+        "PLusieurs GPO ont étés modifiées, mais aucune n'a été redigée de toute pièce"
+      ],
+      "Compétences utilisées / acquises": ["Bases du fonctionnement de Active Directory",
+      "Création de contrôleurs de domaine",
+      "Gestion des rôles FSMO",
+      "Création d'utilisateurs",
+      "Gestion des GPO",
+      "Création d'unités d'organisation",
+      "Intéractions entre un endpoint et une base de données oracle"
+    ],
+      "images": [
+      "images/csharp1.png",
+      "images/csharp2.png",
+      "images/activedirectory.jpg"
+    ]
+    }
+    
+  ]
+  

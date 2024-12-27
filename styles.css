@@ -1,0 +1,101 @@
+html {
+    background-color: #0d1116;
+    color: white;
+  }
+  
+  img.project-image {
+    width: 550px; /* La taille est déterminée par l'image elle-même */
+    height: auto; /* Pas de restriction sur la hauteur */
+    margin: 10px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Noir pour le fond */
+    color: #fff; /* Blanc pour le texte */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Hauteur minimale de l'écran */
+  }
+  
+  #project-container {
+    background: #1e1e1e; /* Fond gris foncé pour le conteneur */
+    border: 1px solid #333; /* Bordure subtile */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center; /* Centrer le texte dans le conteneur */
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #00bcd4; /* Bleu clair pour le titre */
+  }
+  
+  h3 {
+    margin-top: 20px;
+    color: #ff9800; /* Orange pour les sous-titres */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  .project-images {
+    display: flex;
+    flex-wrap: wrap; /* Autorise les images à aller sur une nouvelle ligne si nécessaire */
+    justify-content: center; /* Centre les images */
+    gap: 15px; /* Espacement entre les images */
+    margin-top: 20px;
+  }
+  
+  /* Responsive: Pour les écrans plus petits */
+  @media (max-width: 768px) {
+    .project-images {
+      flex-direction: row; /* Maintient les images en ligne */
+      justify-content: space-around; /* Espacement autour des images */
+    }
+  
+    img.project-image {
+      max-width: 90%; /* Adapte les images à la largeur de l'écran */
+      height: auto; /* Préserve les proportions */
+    }
+  
+    h1 {
+      font-size: 1.5em; /* Réduit la taille du titre */
+    }
+  
+    h3 {
+      font-size: 1.2em; /* Réduit la taille des sous-titres */
+    }
+  }
+  
+  /* Responsive: Pour les écrans très petits */
+  @media (max-width: 480px) {
+    .project-images {
+      flex-direction: column; /* Passe les images en colonne */
+      align-items: center; /* Centre les images */
+    }
+  
+    img.project-image {
+      width: 100%; /* Les images prennent toute la largeur disponible */
+    }
+  
+    h1 {
+      font-size: 1.2em; /* Réduit encore la taille du titre */
+    }
+  
+    h3 {
+      font-size: 1em; /* Sous-titres plus petits */
+    }
+  }
+  
