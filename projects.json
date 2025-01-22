@@ -127,7 +127,63 @@
       "images": [
       "NEmu.jpg"
     ]
+    },
+    {
+      "id": 7,
+      "title": "Station météo programmable",
+      "Cahier des charges": [
+        "Création d'une station méteo capable de stocker un historique des infomations",
+        "Possibilité de programmer un chauffage (affichage graphique)"],
+      "Compétences utilisées / acquises": [
+        "Création d'une application Java",
+        "algorithmie avancée de tri et recherche",
+        "manipulation de matrices",
+        "affichage graphique console"
+    ],
+      "images": [
+      "Odomo.jpg"
+    ]
+    },
+    {
+      "id": 8,
+      "title": "Gestionnaire de tournois",
+      "Cahier des charges": [
+        "Créer une application Symfony permettant de gérer des tournois de robotique (football)",
+        "les chefs d'équipes doivent pouvoir inscrire leurs équipes, les matchs doivent être générés algorithmiquement",
+        "L'historique des matchs est conservé, les équipes peuvent être modifiées"],
+      "Compétences utilisées / acquises": [
+        "Création d'une application Symfony",
+        "Création d'une base de données",
+        "Algorithmie de génération de matchs",
+        "Gestion de l'affichage avec le framework TailwindCSS",
+        "Jeux de données pré-conçus avec les fixutes",
+        "Utilisation de Transact-SQL pour les requêtes complexes",
+        "triggers et procédures stockées"
+    ],
+      "images": [
+      ""
+    ]
+    },
+    {
+      "id": 10,
+      "title": "Application de visualition de données climatiques",
+      "Cahier des charges": [
+        "Collecter des données climatiques viables sous formes de CSV",
+        "intégration des données dans une base de données appropriée",
+        "afficher les données selon des filtes"],
+      "Compétences utilisées / acquises": [
+        "Création d'une application C#",
+        "Recherche de données scientifiques",
+        "Création d'une base de données",
+        "intégration des données via python",
+        "projection des données dans l'applications sous forme de cartes et de graphiques",
+        "algorithmie avancée pour droite de régression spécifique"
+    ],
+      "images": [
+      "interface.png"
+    ]
     }
+
     
   ]
   
